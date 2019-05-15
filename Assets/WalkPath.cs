@@ -9,6 +9,7 @@ public class WalkPath : MonoBehaviour
   private int waypointIndex = 0;
   private KinematicSeek kinematicSeek;
   private RotatingQue<Vector3> _waypoints;
+
   private void Awake()
   {
     kinematicSeek = GetComponent<KinematicSeek>();
